@@ -1,0 +1,85 @@
+{
+  "direct_competitors": [
+    "natierra.com",
+    "crispygreen.com",
+    "brothersallnatural.com",
+    "wel-b.com",
+    "simplekitchenfoods.com"
+  ],
+  "content_competitors": [
+    "healthline.com",
+    "eatingwell.com",
+    "verywellfit.com",
+    "medicalnewstoday.com"
+  ],
+  "bofu_keywords": [
+    "freeze dried fruit snacks",
+    "best freeze dried fruit",
+    "buy freeze dried fruit online",
+    "freeze dried fruit brands",
+    "natierra alternatives",
+    "crispy green alternatives",
+    "brothers all natural alternatives",
+    "nature's turn freeze dried fruit",
+    "nature's turn review",
+    "freeze dried fruit price"
+  ],
+  "mofu_keywords": [
+    "is freeze dried fruit healthy",
+    "freeze dried vs dehydrated fruit",
+    "freeze dried fruit nutrition",
+    "how to use freeze dried fruit",
+    "freeze dried fruit benefits",
+    "freeze dried fruit recipes",
+    "allergen free snacks for school",
+    "no sugar added fruit snacks",
+    "healthy snacks for kids lunchbox"
+  ],
+  "alternative_keywords": [
+    "natierra alternatives",
+    "crispy green alternatives",
+    "brothers all natural alternatives",
+    "wel-b alternatives"
+  ],
+  "key_queries": [
+    "freeze dried fruit",
+    "best freeze dried fruit snacks",
+    "nature's turn"
+  ],
+  "relevant_terms": [
+    "freeze-dried",
+    "freeze dried fruit",
+    "fruit crisps",
+    "fruit snacks",
+    "no sugar added",
+    "allergen free",
+    "non-gmo",
+    "kosher",
+    "healthy snacks",
+    "kids snacks",
+    "nutrient dense",
+    "single ingredient",
+    "clean label",
+    "shelf stable"
+  ],
+  "skip_terms": [
+    "celebrity",
+    "net worth",
+    "biography",
+    "dating",
+    "reddit",
+    "gummy",
+    "candy",
+    "corn syrup"
+  ],
+  "topic_patterns": {
+    "Product Features": ["freeze-dried", "crisps", "fruit snack", "single ingredient", "allergen free"],
+    "Pricing": ["price", "pricing", "cost", "value", "worth it", "expensive"],
+    "Nutrition": ["nutrition", "vitamin", "mineral", "antioxidant", "fiber", "sugar", "calorie", "healthy"],
+    "Comparisons": ["vs", "versus", "compare", "comparison", "alternative", "best", "difference"],
+    "Recipes": ["recipe", "how to use", "baking", "smoothie", "topping", "cooking with"],
+    "Kids & Family": ["kids", "toddler", "baby", "lunchbox", "school", "classroom", "picky eater"],
+    "Allergies & Diet": ["allergen", "allergy", "nut free", "dairy free", "vegan", "kosher", "non-gmo", "gluten free"],
+    "Process & Science": ["freeze drying", "sublimation", "preservation", "shelf life", "nutrient retention"]
+  }
+}

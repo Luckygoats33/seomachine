@@ -5,6 +5,9 @@ google-auth-oauthlib>=1.1.0
 google-auth-httplib2>=0.1.1
 google-api-python-client>=2.100.0
 
+# Google Ads
+google-ads>=26.0.0
+
 # HTTP and API requests
 requests>=2.31.0
 urllib3>=2.0.0

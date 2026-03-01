@@ -1,13 +1,13 @@
-# SEO Guidelines for Castos Content
+# SEO Guidelines for Nature's Turn Content
 
-This document outlines SEO best practices and requirements for all Castos blog content to maximize organic search visibility and rankings.
+This document outlines SEO best practices and requirements for all Nature's Turn blog content to maximize organic search visibility and rankings.
 
 ## Content Length Requirements
 
 ### Target Word Counts
 - **Standard Blog Post**: 1,500-3,000 words (target: 2,000-2,500)
 - **Pillar Content / Comprehensive Guides**: 3,000-5,000 words maximum
-- **How-To Guides**: 1,500-2,500 words
+- **How-To Guides & Recipes**: 1,500-2,500 words
 - **News / Updates**: 800-1,200 words (exception to standard)
 
 ### Important Length Guidelines
@@ -58,16 +58,16 @@ Primary keyword MUST appear in:
 ### Keyword Integration Best Practices
 - **Natural language first**: Write for humans, optimize for search engines
 - **Use variations**: Don't repeat exact phrase robotically
-  - Example: "podcast hosting" → "hosting your podcast" → "podcast host"
+  - Example: "freeze-dried fruit snacks" → "freeze-dried fruit crisps" → "freeze-dried snacks"
 - **Question formats**: Include conversational variations
-  - "How to start a podcast" vs "starting a podcast"
+  - "is freeze-dried fruit healthy" vs. "health benefits of freeze-dried fruit"
 - **Semantic keywords**: Use related terms to support topical authority
-  - For "podcast editing": include "audio editing", "post-production", "editing workflow"
+  - For "freeze-dried fruit nutrition": include "nutrient retention," "vitamin C," "antioxidants," "fiber content"
 
 ### Keyword Stuffing (Avoid)
-❌ "Podcast hosting is important. Podcast hosting helps podcasters. Our podcast hosting platform offers podcast hosting services for podcast hosting needs."
+❌ "Freeze-dried fruit is great. Freeze-dried fruit is nutritious. Our freeze-dried fruit products offer the best freeze-dried fruit experience for freeze-dried fruit lovers."
 
-✅ "Podcast hosting is important for creators who want to distribute their show to major platforms. A reliable host ensures your episodes are accessible wherever listeners discover new content."
+✅ "Freeze-dried fruit preserves the vitamins and minerals found in fresh produce. The gentle sublimation process locks in nutrients while creating a satisfying crunch that makes healthy snacking easy and enjoyable."
 
 ## Content Structure Requirements
 
@@ -136,30 +136,30 @@ Primary keyword MUST appear in:
 
 ### Meta Title
 **Requirements**:
-- **Length**: 50-60 characters (including "| Castos" if used)
+- **Length**: 50-60 characters (including "| Nature's Turn" if used)
 - **Primary keyword**: Must be included
 - **Compelling**: Should encourage clicks from SERP
-- **Unique**: Different from all other Castos page titles
+- **Unique**: Different from all other Nature's Turn page titles
 - **Accurate**: Must match page content
 
 **Format Options**:
 - `[Primary Keyword]: [Benefit/Promise]`
 - `How to [Goal] | [Qualifier]`
 - `[Number] Ways to [Achieve Benefit]`
-- `[Topic] Guide for [Audience] | Castos`
+- `[Topic] Guide for [Audience] | Nature's Turn`
 
 **Examples**:
-- ✅ "How to Start a Podcast in 2025: Complete Guide"
-- ✅ "12 Proven Podcast Growth Strategies | Castos"
-- ❌ "Podcast Tips and Tricks" (too vague, no keyword)
-- ❌ "The Ultimate Comprehensive Guide to Everything About Starting Your First Podcast Successfully" (too long)
+- ✅ "Is Freeze-Dried Fruit Healthy? Nutrition Facts & Benefits"
+- ✅ "7 Best Allergen-Free Snacks for School | Nature's Turn"
+- ❌ "Fruit Snack Tips" (too vague, no keyword)
+- ❌ "The Complete and Comprehensive Guide to Understanding All the Health Benefits of Freeze-Dried Fruit Snacks" (too long)
 
 ### Meta Description
 **Requirements**:
 - **Length**: 150-160 characters
 - **Primary keyword**: Include naturally
 - **Value proposition**: Clear benefit to reader
-- **Call-to-action**: Action phrase (Learn, Discover, Find out, Get, etc.)
+- **Call-to-action**: Action phrase (Learn, Discover, Find out, Shop, etc.)
 - **Complete**: Must not cut off mid-sentence
 - **Compelling**: Should drive clicks from SERP
 
@@ -169,9 +169,9 @@ Primary keyword MUST appear in:
 ```
 
 **Examples**:
-- ✅ "Learn how to start a podcast with our step-by-step guide. Everything from equipment to launch strategy. Perfect for beginners. Start your show today." (159 chars)
-- ✅ "Discover 12 proven podcast growth strategies that top creators use. Increase downloads, engagement, and audience loyalty. Actionable tips inside." (155 chars)
-- ❌ "This is a blog post about podcasting where we discuss many podcast-related topics." (vague, no value prop, no CTA)
+- ✅ "Is freeze-dried fruit as healthy as fresh? Learn how freeze-drying preserves 97% of nutrients. Compare nutrition facts and discover the benefits." (158 chars)
+- ✅ "Find allergen-free snacks safe for school. Made in a dedicated allergen-free facility with no added sugar. Shop Nature's Turn freeze-dried fruit." (152 chars)
+- ❌ "This is a blog post about freeze-dried fruit and why it's healthy." (vague, no value prop, no CTA)
 
 ### URL Slug
 **Requirements**:
@@ -184,10 +184,10 @@ Primary keyword MUST appear in:
 **Format**: `/blog/[primary-keyword-phrase]`
 
 **Examples**:
-- ✅ `/blog/start-podcast-guide`
-- ✅ `/blog/podcast-growth-strategies`
-- ✅ `/blog/podcast-editing-software`
-- ❌ `/blog/how-to-start-a-podcast-in-2025-the-complete-guide` (too long)
+- ✅ `/blog/freeze-dried-fruit-nutrition`
+- ✅ `/blog/allergen-free-snacks-kids`
+- ✅ `/blog/freeze-dried-vs-dehydrated`
+- ❌ `/blog/everything-you-need-to-know-about-freeze-dried-fruit-and-nutrition-facts` (too long)
 - ❌ `/blog/post-12345` (no keywords)
 
 ## Internal Linking Strategy
@@ -209,21 +209,21 @@ Primary keyword MUST appear in:
 - Creates content web
 - Helps readers explore topics comprehensively
 
-#### 3. Product/Feature Pages (0-1 link)
+#### 3. Product/Collection Pages (0-1 link)
 - Only when contextually relevant
-- Natural mention of how Castos solves problem
+- Natural mention of how Nature's Turn products fit the topic
 - Never forced or overly promotional
 
 #### 4. Resource Pages (0-1 link)
-- Templates, tools, checklists
+- Recipes, guides, FAQ
 - When mentioned as solutions in content
 - Provides additional value to reader
 
 ### Internal Linking Best Practices
 
 **Anchor Text**:
-- ✅ Descriptive and keyword-rich: "our complete guide to podcast analytics"
-- ✅ Natural in sentence flow: "Learn more about podcast SEO strategies"
+- ✅ Descriptive and keyword-rich: "our complete guide to freeze-dried fruit nutrition"
+- ✅ Natural in sentence flow: "Learn more about allergen-free snack options"
 - ❌ Generic: "click here" or "read more"
 - ❌ Exact match repeatedly: Always using same anchor text for same page
 
@@ -247,15 +247,15 @@ Primary keyword MUST appear in:
 
 ### What to Link Externally
 - **Statistics and data sources**: Always cite where numbers come from
-- **Research and studies**: Link to original research
-- **Tools and resources**: When recommending specific tools
+- **Research and studies**: Link to original research on nutrition, food science
+- **Tools and resources**: When recommending specific tools or resources
 - **Industry authorities**: Expert opinions or industry publications
 
 ### External Link Quality Standards
 - **Authority**: Link to credible, well-known sources
-  - ✅ Industry publications (Podcast Host, Podnews, etc.)
-  - ✅ Research institutions and studies
-  - ✅ Established media outlets
+  - ✅ USDA FoodData Central, NIH/PubMed studies
+  - ✅ Non-GMO Project website, FDA guidelines
+  - ✅ Peer-reviewed nutrition research
   - ❌ Random blogs with no authority
   - ❌ Spammy or low-quality sites
 
@@ -307,41 +307,41 @@ Use transition words to improve flow (target: one per paragraph):
 ### Expertise, Authoritativeness, Trustworthiness (E-A-T)
 
 #### Expertise
-- Provide accurate, detailed information on podcasting topics
-- Back claims with data and examples
-- Demonstrate deep understanding of podcast creator needs
-- Include actionable, practical advice
+- Provide accurate, detailed information on freeze-dried fruit, nutrition, and clean-label snacking
+- Back claims with data and examples (USDA nutritional data, food science studies)
+- Demonstrate deep understanding of parent, wellness, and dietary needs
+- Include actionable, practical advice (recipes, usage tips, buying guides)
 
 #### Authoritativeness
-- Cite credible sources
-- Reference industry data and trends
-- Include expert quotes when relevant
-- Leverage Castos's position as hosting platform
+- Cite credible sources (USDA, NIH, food science journals)
+- Reference industry data and trends in the freeze-dried food market
+- Include expert quotes when relevant (nutritionists, pediatricians)
+- Leverage Nature's Turn's position as a freeze-dried fruit manufacturer with direct process knowledge
 
 #### Trustworthiness
-- Be transparent and honest
-- Acknowledge limitations or challenges
-- Don't overpromise results
+- Be transparent and honest (about price, nutritional tradeoffs, etc.)
+- Acknowledge limitations or challenges (concentrated sugar per gram, price vs. fresh)
+- Don't overpromise results (freeze-dried fruit is nutrient-dense, not a miracle food)
 - Cite sources for all statistics and claims
 - Update outdated content regularly
 
 ### Content Originality
 - **Never plagiarize**: All content must be original
-- **Add unique value**: What perspective or insight do we add?
+- **Add unique value**: What perspective or insight does Nature's Turn uniquely offer?
 - **Fresh examples**: Use current, relevant examples
 - **Updated data**: Use most recent statistics available
-- **Unique angle**: Differentiate from competitor content
+- **Unique angle**: Differentiate from competitor and health-site content
 
 ### Factual Accuracy
-- **Verify statistics**: Check all numbers and data points
-- **Current information**: Ensure practices/processes are up-to-date
-- **Technical accuracy**: Podcasting terminology and processes must be correct
-- **Castos features**: Ensure product references are accurate
+- **Verify statistics**: Check all numbers and data points against USDA/published sources
+- **Current information**: Ensure nutritional claims and processes are up-to-date
+- **Technical accuracy**: Freeze-drying terminology and nutrition science must be correct
+- **Product accuracy**: Ensure product references match current Nature's Turn offerings
 
 ## Image Optimization
 
 ### Image Requirements
-- **Relevant**: Images should support content points
+- **Relevant**: Images should support content points (product shots, process diagrams, recipe photos)
 - **High-quality**: Professional appearance
 - **Optimized**: Compressed for fast loading
 - **Mobile-friendly**: Visible and useful on small screens
@@ -349,14 +349,14 @@ Use transition words to improve flow (target: one per paragraph):
 ### Image SEO
 **File Names**:
 - Descriptive and keyword-rich
-- ✅ `podcast-editing-software-interface.jpg`
+- ✅ `freeze-dried-strawberry-crisps-nutrition.jpg`
 - ❌ `IMG_12345.jpg`
 
 **Alt Text**:
 - Describe what image shows (accessibility + SEO)
 - Include keywords naturally where relevant
 - 125 characters or less
-- ✅ "Podcast editing software interface showing waveform and timeline"
+- ✅ "Nature's Turn freeze-dried strawberry crisps in a white bowl with fresh strawberries"
 - ❌ "Image"
 
 **Placement**:
@@ -375,9 +375,9 @@ Featured snippets appear at position 0 in Google search results. Optimize for th
 
 **Example**:
 ```markdown
-## What is Podcast Hosting?
+## Is Freeze-Dried Fruit as Healthy as Fresh Fruit?
 
-Podcast hosting is a service that stores your audio files and generates an RSS feed that distributes your episodes to podcast platforms like Apple Podcasts, Spotify, and Google Podcasts. Without a host, listeners can't discover or access your show on their favorite apps.
+Freeze-dried fruit retains up to 97% of the vitamins, minerals, and antioxidants found in fresh fruit. The sublimation process removes only water while preserving the fruit's cellular structure and nutritional content. The main difference is a lighter weight and crunchier texture, with nutrients concentrated per gram.
 ```
 
 ### List-Based Snippets
@@ -386,8 +386,8 @@ Podcast hosting is a service that stores your audio files and generates an RSS f
 - Include 5-8 items typically
 
 ### Table-Based Snippets
-- Use HTML tables or markdown tables
-- Comparison charts, pricing, specifications
+- Use markdown tables for comparisons
+- Freeze-dried vs. dehydrated vs. fresh comparisons
 - Clear headers and organized data
 
 ### Definition Snippets
@@ -409,16 +409,16 @@ Podcast hosting is a service that stores your audio files and generates an RSS f
 ### When to Update Content
 - Article is 12+ months old
 - Statistics or data are outdated
-- Processes or best practices have changed
+- Nutritional claims or certifications have changed
 - Competitor content has surpassed ours
 - Rankings have declined
-- New relevant information available
+- New relevant information available (new products, new certifications)
 
 ### What to Update
 - Publication date or "Last Updated" date
 - Statistics with current data
-- Screenshots with current versions
-- Examples with recent case studies
+- Product information with current offerings and pricing
+- Examples with current use cases
 - SEO elements (keyword focus may have shifted)
 - Internal links to newer content
 
@@ -472,9 +472,9 @@ Before publishing, verify:
 
 ### Quality
 - [ ] No spelling or grammar errors
-- [ ] Factually accurate
+- [ ] Factually accurate (nutrition, certifications, process)
 - [ ] Sources cited
-- [ ] Brand voice maintained
+- [ ] Brand voice maintained (warm, knowledgeable, transparent)
 - [ ] Provides actionable value
 - [ ] Clear call-to-action
 
@@ -490,10 +490,10 @@ Before publishing, verify:
 ### Reference Resources
 - Google's Search Quality Evaluator Guidelines
 - Moz Beginner's Guide to SEO
-- Backlinko Blog (Brian Dean)
+- USDA FoodData Central (for nutrition facts)
+- Non-GMO Project website (for certification details)
 - Search Engine Journal
-- Ahrefs Blog
 
 ---
 
-**Remember**: SEO serves the user, not the algorithm. Never sacrifice content quality, accuracy, or helpfulness for keyword optimization. The best SEO is great content that genuinely helps podcast creators succeed.
+**Remember**: SEO serves the user, not the algorithm. Never sacrifice content quality, accuracy, or helpfulness for keyword optimization. The best SEO is great content that genuinely helps families, health-conscious consumers, and snack enthusiasts make better choices.

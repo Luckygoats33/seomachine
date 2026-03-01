@@ -13,11 +13,13 @@ try:
     from .google_analytics import GoogleAnalytics
     from .google_search_console import GoogleSearchConsole
     from .dataforseo import DataForSEO
+    from .google_ads import GoogleAds
 except ImportError:
     # Fallback for direct execution
     from google_analytics import GoogleAnalytics
     from google_search_console import GoogleSearchConsole
     from dataforseo import DataForSEO
+    from google_ads import GoogleAds
 
 
 class DataAggregator:
@@ -47,6 +49,12 @@ class DataAggregator:
             print(f"Warning: DataForSEO not configured: {e}")
             self.dfs = None
 
+        try:
+            self.gads = GoogleAds()
+        except Exception as e:
+            print(f"Warning: Google Ads not configured: {e}")
+            self.gads = None
+
     def get_comprehensive_page_performance(
         self,
         url: str,
@@ -68,7 +76,8 @@ class DataAggregator:
             'period_days': days,
             'ga4': None,
             'gsc': None,
-            'dataforseo': None
+            'dataforseo': None,
+            'google_ads': None,
         }
 
         # Google Analytics data
@@ -105,6 +114,18 @@ class DataAggregator:
             except Exception as e:
                 result['dataforseo'] = {'error': str(e)}
 
+        # Google Ads - search terms and keyword costs related to this URL's topic
+        if self.gads:
+            try:
+                search_terms = self.gads.get_search_terms(days=days, limit=20)
+                high_cpc = self.gads.get_cost_by_keyword(days=days)
+                result['google_ads'] = {
+                    'search_terms': search_terms[:10],
+                    'high_cpc_keywords': high_cpc[:10],
+                }
+            except Exception as e:
+                result['google_ads'] = {'error': str(e)}
+
         return result
 
     def identify_content_opportunities(
@@ -123,7 +144,9 @@ class DataAggregator:
             'declining_content': [],   # Pages losing traffic
             'low_ctr': [],            # High impressions, low CTR
             'trending_topics': [],     # Rising queries
-            'competitor_gaps': []      # Keywords competitors rank for
+            'competitor_gaps': [],     # Keywords competitors rank for
+            'paid_search_terms': [],   # Real queries from Google Ads (content ideas)
+            'high_cpc_targets': [],    # Expensive keywords worth targeting organically
         }
 
         # Quick wins from GSC
@@ -160,6 +183,20 @@ class DataAggregator:
                 opportunities['trending_topics'] = trending[:15]
             except Exception as e:
                 print(f"Error getting trending queries: {e}")
+
+        # Google Ads search terms — real queries people use (great for content ideas)
+        if self.gads:
+            try:
+                search_terms = self.gads.get_search_terms(days=days, limit=50)
+                opportunities['paid_search_terms'] = search_terms[:20]
+            except Exception as e:
+                print(f"Error getting Google Ads search terms: {e}")
+
+            try:
+                high_cpc = self.gads.get_cost_by_keyword(days=days)
+                opportunities['high_cpc_targets'] = high_cpc[:15]
+            except Exception as e:
+                print(f"Error getting high-CPC keywords: {e}")
 
         return opportunities
 
@@ -205,6 +242,19 @@ class DataAggregator:
                 report['summary']['avg_ctr'] = sum(kw['ctr'] for kw in keywords) / len(keywords) if keywords else 0
             except Exception as e:
                 print(f"Error getting GSC summary: {e}")
+
+        if self.gads:
+            try:
+                campaigns = self.gads.get_campaign_performance(days=days)
+                report['summary']['ads_total_cost'] = sum(c['cost'] for c in campaigns)
+                report['summary']['ads_total_clicks'] = sum(c['clicks'] for c in campaigns)
+                report['summary']['ads_total_conversions'] = sum(c['conversions'] for c in campaigns)
+                report['summary']['ads_total_value'] = sum(c['conversion_value'] for c in campaigns)
+                total_cost = report['summary']['ads_total_cost']
+                total_value = report['summary']['ads_total_value']
+                report['summary']['ads_roas'] = round(total_value / total_cost, 2) if total_cost > 0 else 0
+            except Exception as e:
+                print(f"Error getting Google Ads summary: {e}")
 
         # Opportunities
         report['opportunities'] = self.identify_content_opportunities(days=days)
@@ -275,6 +325,31 @@ class DataAggregator:
                 'reason': f"Search interest up {top_trend['change_percent']:.1f}% with {top_trend['recent_impressions']:,} recent impressions. Strike while hot!",
                 'query': top_trend['query'],
                 'growth': top_trend['change_percent']
+            })
+
+        # High-CPC keywords — organic targets to save ad spend
+        if opportunities.get('high_cpc_targets'):
+            top_expensive = opportunities['high_cpc_targets'][0]
+            recommendations.append({
+                'priority': 'high',
+                'type': 'create_new',
+                'action': f"Target expensive keyword organically: '{top_expensive['keyword']}'",
+                'reason': f"Paying ${top_expensive['avg_cpc']:.2f}/click (${top_expensive['total_cost']:.2f} total). Ranking organically could save ~${top_expensive['estimated_monthly_organic_value']:.2f}/month.",
+                'keyword': top_expensive['keyword'],
+                'avg_cpc': top_expensive['avg_cpc'],
+                'monthly_value': top_expensive['estimated_monthly_organic_value']
+            })
+
+        # Paid search terms — content ideas from real queries
+        if opportunities.get('paid_search_terms'):
+            top_term = opportunities['paid_search_terms'][0]
+            recommendations.append({
+                'priority': 'medium',
+                'type': 'create_new',
+                'action': f"Create content for paid search term: '{top_term['search_term']}'",
+                'reason': f"Real users searched this {top_term['impressions']:,} times. Currently paying ${top_term['avg_cpc']:.2f}/click. Content could capture this traffic organically.",
+                'search_term': top_term['search_term'],
+                'impressions': top_term['impressions']
             })
 
         return recommendations

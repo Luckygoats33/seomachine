@@ -1,188 +1,125 @@
 # Internal Links Map
 
-<!-- INSTRUCTIONS: This document catalogs key pages on your website that should be referenced
-     in blog content for strategic internal linking.
-
-     Fill in all sections with your actual URLs and linking guidelines.
-     This helps Claude create relevant internal links while writing content.
-
-     Delete these instruction comments when done.
-     See examples/castos/internal-links-map.md for a complete real-world example. -->
-
-This document catalogs key [YOUR COMPANY] pages that should be referenced in blog content for strategic internal linking. Use this as your go-to reference when adding internal links to articles.
-
-## Instructions
-
-Fill in URLs and descriptions for all important pages on your website. Update as new content is created or pages are updated.
-
-For each page, include:
-- **URL**: The full URL to the page
-- **When to Link**: Context or topics where this link is relevant
-- **Anchor Text Examples**: Natural phrases to use when linking
+This document catalogs key Nature's Turn pages that should be referenced in blog content for strategic internal linking. Use this as your go-to reference when adding internal links to articles.
 
 ---
 
 ## Homepage & Core Pages
 
 ### Homepage
-- **URL**: https://[yoursite.com]
-- **When to Link**: [e.g., "Rarely; only when referencing your company broadly"]
-- **Anchor Text Examples**: "[your company name]", "our platform", "[your product]"
+- **URL**: https://naturesturn.com
+- **When to Link**: Rarely; only when referencing the brand broadly or in a general CTA
+- **Anchor Text Examples**: "Nature's Turn", "our freeze-dried fruit crisps", "naturesturn.com"
 
 ### About Page
-- **URL**: https://[yoursite.com/about]
-- **When to Link**: [e.g., "When discussing company mission, values, or team"]
-- **Anchor Text Examples**: "about [company]", "our mission", "our story"
+- **URL**: https://naturesturn.com/pages/about-us
+- **When to Link**: When discussing the brand story, mission, values, or company background
+- **Anchor Text Examples**: "about Nature's Turn", "our story", "why we started Nature's Turn"
 
 ### Contact Page
-- **URL**: https://[yoursite.com/contact]
-- **When to Link**: [e.g., "When inviting readers to reach out"]
-- **Anchor Text Examples**: "contact us", "get in touch", "reach out"
+- **URL**: https://naturesturn.com/pages/contact
+- **When to Link**: When inviting readers to reach out with questions or wholesale inquiries
+- **Anchor Text Examples**: "contact us", "get in touch", "reach out to Nature's Turn"
 
-### Pricing Page
-- **URL**: https://[yoursite.com/pricing]
-- **When to Link**: [e.g., "When discussing costs, plans, or pricing"]
-- **Anchor Text Examples**: "[product] pricing", "pricing plans", "see pricing"
-
----
-
-## Product/Service Pages
-
-<!-- INSTRUCTIONS: Add your main product or service pages -->
-
-### [Product/Service Name 1]
-- **URL**: https://[yoursite.com/product-1]
-- **When to Link**: [Topics/contexts where this is relevant]
-- **Anchor Text Examples**: "[descriptive phrase]", "[benefit-focused phrase]", "[feature name]"
-
-### [Product/Service Name 2]
-- **URL**: https://[yoursite.com/product-2]
-- **When to Link**: [Topics/contexts where this is relevant]
-- **Anchor Text Examples**: "[descriptive phrase]", "[benefit-focused phrase]", "[feature name]"
-
-### [Product/Service Name 3]
-- **URL**: https://[yoursite.com/product-3]
-- **When to Link**: [Topics/contexts where this is relevant]
-- **Anchor Text Examples**: "[descriptive phrase]", "[benefit-focused phrase]", "[feature name]"
+### FAQ Page
+- **URL**: https://naturesturn.com/pages/faq
+- **When to Link**: When answering common questions about freeze-dried fruit or referencing product details
+- **Anchor Text Examples**: "frequently asked questions", "common questions about freeze-dried fruit", "see our FAQ"
 
 ---
 
-## Feature Pages
+## Product Collection Pages
 
-<!-- INSTRUCTIONS: Add pages for specific features or capabilities -->
+### All Products
+- **URL**: https://naturesturn.com/collections/all
+- **When to Link**: General product references, "shop our full line" CTAs
+- **Anchor Text Examples**: "shop all freeze-dried fruit", "browse our full product line", "explore all varieties"
 
-### [Feature Name 1]
-- **URL**: https://[yoursite.com/feature-1]
-- **When to Link**: In articles about [relevant topics]
-- **Anchor Text Examples**: "[feature name]", "[what it does]", "[benefit phrase]"
+### Single-Fruit Crisps Collection
+- **URL**: https://naturesturn.com/collections (verify exact URL)
+- **When to Link**: When discussing single-ingredient products or specific fruit varieties
+- **Anchor Text Examples**: "single-fruit crisps", "our single-ingredient freeze-dried fruits"
 
-### [Feature Name 2]
-- **URL**: https://[yoursite.com/feature-2]
-- **When to Link**: In articles about [relevant topics]
-- **Anchor Text Examples**: "[feature name]", "[what it does]", "[benefit phrase]"
-
-### [Feature Name 3]
-- **URL**: https://[yoursite.com/feature-3]
-- **When to Link**: In articles about [relevant topics]
-- **Anchor Text Examples**: "[feature name]", "[what it does]", "[benefit phrase]"
+### Blended Crisps Collection
+- **URL**: https://naturesturn.com/collections (verify exact URL)
+- **When to Link**: When discussing fruit blends, variety, or flavor combinations
+- **Anchor Text Examples**: "fruit blends", "blended crisps", "signature blends"
 
 ---
 
-## Use Case / Solution Pages
+## Individual Product Pages
 
-<!-- INSTRUCTIONS: Add pages for specific use cases, industries, or customer segments -->
+### Strawberry Crisps
+- **URL**: https://naturesturn.com/products/strawberry-crisps (verify exact URL)
+- **When to Link**: In articles about strawberry nutrition, berry benefits, smoothie recipes, kids' snacks
+- **Anchor Text Examples**: "Strawberry Crisps", "freeze-dried strawberries", "our Strawberry Crisps"
 
-### [Use Case 1]
-- **URL**: https://[yoursite.com/use-case-1]
-- **When to Link**: In articles targeting [audience segment] or discussing [problem/solution]
-- **Anchor Text Examples**: "[use case description]", "[for whom]", "[solution phrase]"
+### Banana Crisps
+- **URL**: https://naturesturn.com/products/banana-crisps (verify exact URL)
+- **When to Link**: In articles about banana nutrition, potassium, pre-workout snacks
+- **Anchor Text Examples**: "Banana Crisps", "freeze-dried bananas", "our Banana Crisps"
 
-### [Use Case 2]
-- **URL**: https://[yoursite.com/use-case-2]
-- **When to Link**: In articles targeting [audience segment] or discussing [problem/solution]
-- **Anchor Text Examples**: "[use case description]", "[for whom]", "[solution phrase]"
+### Mango Crisps
+- **URL**: https://naturesturn.com/products/mango-crisps (verify exact URL)
+- **When to Link**: In articles about tropical fruit, vitamin C, exotic snacks
+- **Anchor Text Examples**: "Mango Crisps", "freeze-dried mango", "our Mango Crisps"
 
----
+### Apple Crisps
+- **URL**: https://naturesturn.com/products/apple-crisps (verify exact URL)
+- **When to Link**: In articles about apple nutrition, lunchbox snacks, kids' favorites
+- **Anchor Text Examples**: "Apple Crisps", "freeze-dried apples", "our Apple Crisps"
 
-## Resource Pages
+### Peach Crisps
+- **URL**: https://naturesturn.com/products/peach-crisps (verify exact URL)
+- **When to Link**: In articles about stone fruit, summer snacks, peach nutrition
+- **Anchor Text Examples**: "Peach Crisps", "freeze-dried peaches", "our Peach Crisps"
 
-<!-- INSTRUCTIONS: Add links to guides, tools, templates, or other resources -->
+### Pear Crisps
+- **URL**: https://naturesturn.com/products/pear-crisps (verify exact URL)
+- **When to Link**: In articles about pear nutrition, mild-flavored fruits, gentle snacking
+- **Anchor Text Examples**: "Pear Crisps", "freeze-dried pears", "our Pear Crisps"
 
-### [Resource Name 1]
-- **URL**: https://[yoursite.com/resources/resource-1]
-- **When to Link**: [When this resource would help the reader]
-- **Anchor Text Examples**: "[resource name]", "[what it provides]", "free [resource type]"
+### Raspberry Crisps
+- **URL**: https://naturesturn.com/products/raspberry-crisps (verify exact URL)
+- **When to Link**: In articles about berry benefits, antioxidants, baking with freeze-dried fruit
+- **Anchor Text Examples**: "Raspberry Crisps", "freeze-dried raspberries", "our Raspberry Crisps"
 
-### [Resource Name 2]
-- **URL**: https://[yoursite.com/resources/resource-2]
-- **When to Link**: [When this resource would help the reader]
-- **Anchor Text Examples**: "[resource name]", "[what it provides]", "free [resource type]"
+### Pineapple Crisps
+- **URL**: https://naturesturn.com/products/pineapple-crisps (verify exact URL)
+- **When to Link**: In articles about tropical fruit, bromelain benefits, cocktail garnishes
+- **Anchor Text Examples**: "Pineapple Crisps", "freeze-dried pineapple", "our Pineapple Crisps"
 
----
+### Dragon Fruit Crisps
+- **URL**: https://naturesturn.com/products/dragon-fruit-crisps (verify exact URL)
+- **When to Link**: In articles about exotic superfruits, unique snacks, dragon fruit benefits
+- **Anchor Text Examples**: "Dragon Fruit Crisps", "freeze-dried dragon fruit", "our Dragon Fruit Crisps"
 
-## Top-Performing Blog Posts
+### Tropical Blend
+- **URL**: https://naturesturn.com/products/tropical-blend (verify exact URL)
+- **When to Link**: In articles about tropical fruit, variety snacking, flavor combinations
+- **Anchor Text Examples**: "Tropical Blend", "our tropical fruit blend", "pineapple, mango & banana blend"
 
-<!-- INSTRUCTIONS: Add your 10-20 best blog posts that get good traffic and conversions.
-     These are "pillar content" you want to link to frequently. -->
+### Apple Cinnamon
+- **URL**: https://naturesturn.com/products/apple-cinnamon (verify exact URL)
+- **When to Link**: In articles about fall flavors, cinnamon benefits, warm-spiced snacks
+- **Anchor Text Examples**: "Apple Cinnamon", "our Apple Cinnamon crisps", "apple cinnamon freeze-dried blend"
 
-### [Blog Post Title 1]
-- **URL**: https://[yoursite.com/blog/post-1]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-### [Blog Post Title 2]
-- **URL**: https://[yoursite.com/blog/post-2]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-### [Blog Post Title 3]
-- **URL**: https://[yoursite.com/blog/post-3]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-### [Blog Post Title 4]
-- **URL**: https://[yoursite.com/blog/post-4]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-### [Blog Post Title 5]
-- **URL**: https://[yoursite.com/blog/post-5]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-<!-- Add 5-15 more of your top blog posts following the same format -->
+### Strawberry & Banana
+- **URL**: https://naturesturn.com/products/strawberry-banana (verify exact URL)
+- **When to Link**: In articles about classic fruit pairings, kids' favorites, smoothie alternatives
+- **Anchor Text Examples**: "Strawberry & Banana", "our Strawberry & Banana blend", "strawberry banana crisps"
 
 ---
 
-## Comparison Pages
+## Blog Posts
 
-<!-- INSTRUCTIONS: If you have comparison or "vs" pages, add them here -->
+*Note: Nature's Turn's blog may not yet have published content. Update this section as blog posts are created and published.*
 
-### [Your Product] vs [Competitor 1]
-- **URL**: https://[yoursite.com/vs/competitor-1]
-- **When to Link**: When mentioning [competitor] or discussing alternatives
-- **Anchor Text Examples**: "[your product] vs [competitor]", "comparison with [competitor]"
-
-### [Your Product] vs [Competitor 2]
-- **URL**: https://[yoursite.com/vs/competitor-2]
-- **When to Link**: When mentioning [competitor] or discussing alternatives
-- **Anchor Text Examples**: "[your product] vs [competitor]", "comparison with [competitor]"
-
----
-
-## Landing Pages
-
-<!-- INSTRUCTIONS: Add any campaign-specific or conversion-optimized landing pages -->
-
-### [Campaign/Offer Name]
-- **URL**: https://[yoursite.com/landing/offer-1]
-- **When to Link**: [Specific contexts for this offer]
-- **Anchor Text Examples**: "[offer description]", "[call to action]", "[benefit phrase]"
+### [Future Pillar Content — Add as Published]
+- **URL**: TBD
+- **Primary Topic**: TBD
+- **When to Link**: TBD
+- **Anchor Text Examples**: TBD
 
 ---
 
@@ -193,32 +130,40 @@ When adding internal links to blog content:
 1. **Link Naturally**: Only link when genuinely relevant and helpful to the reader
 2. **Vary Anchor Text**: Use different phrases for the same destination URL
 3. **3-5 Links Per Post**: Aim for 3-5 strategic internal links in each blog post
-4. **Deep Linking**: Link to specific relevant pages, not just the homepage
+4. **Deep Linking**: Link to specific product pages, not just the homepage or collection page
 5. **Early Links Matter**: Links in the first few paragraphs carry more weight
 6. **Update This Map**: Add new pages as you create them, remove outdated URLs
+7. **Verify URLs**: Product URLs noted above should be verified against the live site before first use
 
 ---
 
 ## Quick Reference by Topic
 
-<!-- INSTRUCTIONS: Create a quick topic-to-URL mapping for common themes you write about.
-     This helps Claude quickly find relevant links while writing. -->
+**When writing about nutrition & health benefits**, link to:
+- Individual product pages (relevant fruit) — for specific nutrient examples
+- FAQ page — for common nutrition questions
+- About page — when citing Nature's Turn's expertise or mission
 
-**When writing about [Topic 1]**, link to:
-- [URL 1] - [Brief description]
-- [URL 2] - [Brief description]
-- [URL 3] - [Brief description]
+**When writing about kids' snacks & family content**, link to:
+- Strawberry Crisps, Banana Crisps, Apple Crisps — top kid-friendly varieties
+- Strawberry & Banana blend — classic kids' favorite
+- All Products collection — for "explore all options" CTAs
 
-**When writing about [Topic 2]**, link to:
-- [URL 1] - [Brief description]
-- [URL 2] - [Brief description]
-- [URL 3] - [Brief description]
+**When writing about recipes & usage ideas**, link to:
+- Specific product pages for featured fruits
+- Tropical Blend — for tropical recipe content
+- All Products collection — for "stock your pantry" CTAs
 
-**When writing about [Topic 3]**, link to:
-- [URL 1] - [Brief description]
-- [URL 2] - [Brief description]
-- [URL 3] - [Brief description]
+**When writing about allergen-free & dietary content**, link to:
+- About page — for allergen-free facility details
+- FAQ page — for allergen certification questions
+- All Products collection — for "safe for everyone" CTAs
+
+**When writing about freeze-drying process & science**, link to:
+- About page — for process transparency
+- FAQ page — for "how is it made" questions
+- Individual product pages — as examples of the process result
 
 ---
 
-*Note: Keep this document updated as you publish new content or restructure your site. Accurate internal linking improves SEO and user experience.*
+*Note: Keep this document updated as new content is published or the site structure changes. Verify all URLs before linking. Accurate internal linking improves SEO and user experience.*
